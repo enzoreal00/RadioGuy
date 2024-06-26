@@ -49,8 +49,8 @@ function adicionar() {
         rl.question('Digite o nome do artista: ', (artista) => {
             rl.question('Digite o genêro músical: ', (genero) => {
                 rl.question('Digite a produtora da música: ', (produtora) => {
-                    rl.question('Digite o estilo da música: ', (estilo) => {
-                        musicas.push({nome: nome, artista: artista, genero: genero, produtora: produtora, estilo: estilo})
+                    rl.question('Digite o ano da música: ', (ano) => {
+                        musicas.push({nome: nome, artista: artista, genero: genero, produtora: produtora, ano: ano})
                         console.log('Música cadastrada com sucesso!')
                         exibirMenu()
                     })
@@ -83,13 +83,13 @@ function editar() {
                     rl.question('Digite o novo nome do artista: ', (artista) => {
                         rl.question('Digite o novo genêro: ', (genero) => {
                             rl.question('Digite a nova produtora: ', (produtora) => {
-                                rl.question('Digite o novo estilo músical: ', (estilo) => {
+                                rl.question('Digite o novo ano da música: ', (ano) => {
                                     musicas[opcao - 1] = {
                                         nome,
                                         artista,
                                         genero,
                                         produtora,
-                                        estilo
+                                        ano
                                     }
                                 console.log('Editado com sucesso!')
                                 exibirMenu()
