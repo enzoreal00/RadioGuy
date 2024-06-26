@@ -30,9 +30,9 @@ Este é um sistema simples escrito em node.js que consiste em armazenar as infor
 
 ### Execução
 
-1. Clone o repositório RadioGuy no GitHub ou copie o código para um arquivo `RadioGuy.js`.
+1. Clone o repositório RadioGuy no GitHub ou copie o código para um arquivo `radioguy.js`.
 2. Mo terminal, navegue até o diretório onde o arquivo se localiza.
 3. Execute o programa com o comando:
     ```bash
-    node lembretes.js
+    node radioguy.js
      ```
